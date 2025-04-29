@@ -214,6 +214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LobbyUI
       objectReference: {fileID: 0}
+    - target: {fileID: 3870283614252561372, guid: b02382b9e205b7f4d89a5c94e08a2724, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3870283614252561375, guid: b02382b9e205b7f4d89a5c94e08a2724, type: 3}
       propertyPath: m_BlockingMask.m_Bits
       value: 4294967295
