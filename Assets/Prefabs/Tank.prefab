@@ -66,6 +66,26 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 5962685576322052147}
   m_SourcePrefab: {fileID: 100100000, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd, type: 3}
+--- !u!23 &6276937902619062612 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300008, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd, type: 3}
+  m_PrefabInstance: {fileID: 6276937902620961084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6276937902619062618 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300006, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd, type: 3}
+  m_PrefabInstance: {fileID: 6276937902620961084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6276937902619062620 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd, type: 3}
+  m_PrefabInstance: {fileID: 6276937902620961084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6276937902619062622 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300002, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd, type: 3}
+  m_PrefabInstance: {fileID: 6276937902620961084}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6276937902621060652 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100112, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd, type: 3}
@@ -84,6 +104,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1634926847320046471}
+  childs:
+  - {fileID: 6276937902619062620}
+  - {fileID: 6276937902619062618}
+  - {fileID: 6276937902619062612}
+  - {fileID: 6276937902619062622}
 --- !u!54 &1634926847320046471
 Rigidbody:
   m_ObjectHideFlags: 0
