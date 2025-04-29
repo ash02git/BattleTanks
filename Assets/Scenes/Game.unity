@@ -258,8 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079d3f14cb0372a47a2481d6686f4e1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tankPrefab: {fileID: 6276937902621060652, guid: 643406e01e70f4d4e8d3e85077a8ea90,
-    type: 3}
+  tankView: {fileID: -6563064360243761137, guid: 643406e01e70f4d4e8d3e85077a8ea90, type: 3}
 --- !u!1001 &1805823116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -282,7 +281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366463266053016, guid: 0aac6aef14f064c3fb626270cff2683b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.6140428
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4366463266053016, guid: 0aac6aef14f064c3fb626270cff2683b, type: 3}
       propertyPath: m_LocalPosition.z
